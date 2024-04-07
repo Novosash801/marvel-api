@@ -21,7 +21,7 @@
         padding: 0 18px;
         transition: none;
         &::before {
-            border-color: $main-color transparent;
+            border-color: $main-color #232222;
             border-style: solid;
             border-width: 0 0 10px 10px;
             content: '';
@@ -33,7 +33,7 @@
             background-color: $dark;
         }
         &::after {
-            border-color: $main-color transparent;
+            border-color: $main-color #232222;
             border-style: solid;
             border-width: 0 0 10px 10px;
             content: "";
@@ -51,11 +51,11 @@
             background-color: $main-color;
             &::before {
                 transition: none;
-                background-color: #fff;
+                background-color: #ffffff;
             }
             &::after {
                 transition: none;
-                background-color: #fff;
+                background-color: #ffffff;
             }
         }
         &:hover {
