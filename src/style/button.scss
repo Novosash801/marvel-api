@@ -93,11 +93,15 @@
     }
     &.button__main::before, &.button__main::after {
         background-color: $main-color;
+        border: none;
     }
     &.button__secondary::before, &.button__secondary::after {
         background-color: $grey;
+       
     }
     &:hover {
         transform: translateY(-5px);
+        background-color: $main-color;
+        border: none;
     }
 }
