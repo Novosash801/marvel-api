@@ -104,4 +104,8 @@
         background-color: $main-color;
         border: none;
     }
+    &:disabled {
+        filter: grayscale(.5);
+    }
+
 }

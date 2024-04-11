@@ -6,6 +6,7 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:react/jsx-runtime',
         'plugin:react-hooks/recommended',
+        // 'plugin:prettier/recommended'
     ],
     ignorePatterns: ['dist', '.eslintrc.cjs'],
     parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
@@ -15,7 +16,7 @@ module.exports = {
         'react/jsx-no-target-blank': 'off',
         'react-refresh/only-export-components': [
 
-            // My rules
+            // My Own Rules
 
             'warn',
                 { allowConstantExport: true },
@@ -44,5 +45,11 @@ module.exports = {
             'no-unused-vars': [
                 'warn'
             ],
+            /* 'prettier/prettier': [
+                'warn',
+                {
+                    endOfLine: 'auto'
+                }
+            ] */
     },
 }
