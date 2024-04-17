@@ -3,7 +3,10 @@ import './errorMessage.scss';
 
 const ErrorMessage = () => {
     return (
-        <img src={img} alt="Error"/>
+        <div className="error__message">
+            <img src={img} alt="Error"/>
+        </div>
+       
     );
 };
 export default ErrorMessage;

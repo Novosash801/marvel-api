@@ -21,7 +21,7 @@
         padding: 0 18px;
         transition: none;
         &::before {
-            border-color: $main-color #232222;
+            border-color: $main-color #ffffff;
             border-style: solid;
             border-width: 0 0 10px 10px;
             content: '';
@@ -33,7 +33,7 @@
             background-color: $dark;
         }
         &::after {
-            border-color: $main-color #232222;
+            border-color: $main-color #ffffff;
             border-style: solid;
             border-width: 0 0 10px 10px;
             content: "";
@@ -101,8 +101,8 @@
     }
     &:hover {
         transform: translateY(-5px);
-        background-color: $main-color;
-        border: none;
+        // background-color: $main-color;
+        // border: none;
     }
     &:disabled {
         filter: grayscale(.5);
